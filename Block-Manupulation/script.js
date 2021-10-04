@@ -5,12 +5,12 @@ window.addEventListener('load',function(){
     //change y position
     let posY = document.getElementById('pos-y');
     posY.addEventListener('input',function(){
-        block.style.top = posY.value + 'px';
+        block.style.marginTop = posY.value + 'px';
     })
      //change x position
     let posX = document.getElementById('pos-x');
     posX.addEventListener('input',function(){
-        block.style.left = posX.value + 'px';
+        block.style.marginLeft = posX.value + 'px';
     })
     // change size
     let size = document.getElementById('size');
